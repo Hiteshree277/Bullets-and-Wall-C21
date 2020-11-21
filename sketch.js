@@ -8,6 +8,7 @@ var weight;
 function setup() {
   createCanvas(1600,400);
   
+  thickness=random(22,83);
   bullet=createSprite(50,200,17,5);
   bullet.shapeColor=color(0);
   wall=createSprite(1500,200,thickness,height/2);
@@ -16,7 +17,7 @@ function setup() {
   
   speed=random(223,321);
   weight=random(30,52);
-  thickness=random(22,83);
+  
 
 }
 
